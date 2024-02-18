@@ -1,5 +1,4 @@
 package Domen;
-
 public class HotDrink extends Product{
     private Integer temperatura;
 
@@ -7,15 +6,12 @@ public class HotDrink extends Product{
         super(price, place, name, id);
         this.temperatura = temperatura;
     }
-
     public Integer getTemperatura() {
         return temperatura;
     }
-
     public void setTemperatura(Integer temperatura) {
         this.temperatura = temperatura;
     }
-
     @Override
     public String toString() {
         return super.toString() +
